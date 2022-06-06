@@ -4,7 +4,7 @@ pipeline {
         stage('dummy') {
             steps {
                 script {
-                    sh: "Hello!"
+                    sh "Hello!"
                 }
             }
         }
