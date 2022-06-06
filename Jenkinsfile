@@ -4,7 +4,7 @@ pipeline {
         stage('dummy') {
             steps {
                 script {
-                    jdkConfig['jdk11'].agentImage.linux = buildDockerImage('jdk11')
+                    sh: "Hello!"
                 }
             }
         }
